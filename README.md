@@ -14,6 +14,7 @@ Para subir servidor executar:
 node server.js
 ------------------------------------------------------------
 Sobre o Firebase, utilizar o seguinte código como regra:
+
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
